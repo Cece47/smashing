@@ -1,0 +1,178 @@
+body {
+  background-image: url("http://academy.smashingboxes.com/assets/timeline_bg-c6df24fc8cdea898ad4491ad758fdbe7.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.nav-bar {
+  background-color:#1F7A99;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  width:100%;
+  color:white;
+  align:left;
+}
+.nav-bar img {
+  padding:10px;
+  padding-left:60px;
+}
+.nav-content {
+  float:right;
+}
+ul {
+  list-style-type:none;
+  word-spacing:10px;
+  padding-top:0px
+}
+
+li {
+  display:inline;
+  font-size:16px;
+  font-family:Helvetica;
+  padding-right:40px;
+}
+
+li:hover {
+  text-decoration:underline;
+}
+.content-box {
+  position:static;
+  top:500px;
+}
+.blue-section {
+  background-color:#33CCFF;
+  position:static;
+  top:0;
+  bottom:0;
+  padding-top:10px;
+  padding-bottom:50px;
+  margin-right:-8px;
+  margin-left:-8px;
+  color:white;
+}
+.welcome-pg {
+  margin-top:150px;
+  margin-left:250px;
+  margin-right:250px;
+}
+h1 {
+  font-family:Helvetica;
+  font-size:2em;
+  letter-spacing:5px;
+  color:white;
+}
+p {
+  font-family:Helvetica;
+  font-size:1.3em;
+  letter-spacing:2px;
+  line-height:140%;
+  color:white;
+}
+.logos-box {
+  margin-top:60px;
+  text-align:center;
+}
+.apply-button {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:75px;
+  padding:20px;
+  display:block;
+  height:25px;
+  width:90px;
+  background:#1F7A99;
+  text-decoration:none;
+  color:white;
+  font-family:Helvetica;
+  font-size:20px;
+  text-align:center;
+  border-radius:10px;
+}
+.apply-button:hover {
+  background-color:white;
+  color:#33CCFF;
+}
+.pg-two-text {
+  margin-top:110px;
+  margin-left:210px;
+  margin-right:210px;
+  margin-bottom:200px;
+}
+.pg-two-text h1 {
+  font-family:Helvetica;
+  line-height:200%;
+}
+.pg-two-text p {
+  font-family:Helvetica;
+  line-spacing:4px;
+  line-height:160%;
+  font-size:18px;
+}
+.animation-bar {
+  background-color:#292627;
+  width:auto;
+  height:180px;
+  position:static;
+  top:0;
+  bottom:0;
+  padding-top:10px;
+  padding-bottom:50px;
+  margin-right:-10px;
+  margin-left:-10px;
+}
+.animation-bar img {
+  background-color:white;
+  position:auto;
+  margin-left:120px;
+}
+.animation-bar img:hover {
+  background-color:#1F7A99;
+  transition-property: background, border-radius;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
+.middle-page {
+  background-color:white;
+  margin:0;
+  padding-top:50px;
+  padding-right:-10px;
+  padding-left:-10px;
+  padding-bottom:1000px;
+  line-spacing:50px;
+}
+.about-academy h1 {
+  color:#292627;
+  margin-left:200px;
+  font-family:Helvetica;
+  line-spacing:40px;
+  line-height:140%;
+}
+.about-academy p {
+  color:#292627;
+  margin-left:200px;
+  margin-right:200px;
+  font-family:Helvetica;
+  font-size:18px;
+  line-spacing:20px;
+  line-height:140%;
+}
+.about-academy a {
+  text-decoration:none;
+  color:#1F7A99;
+}
+.line {
+  background-color:#292627;
+  margin-top:100px;
+  width:550px;
+  height:.5px;
+}
+.mentors {
+  font-family:Helvetica;
+  margin-top:75px;
+  font-color:#292627;
+  margin-left:200px;
+}
